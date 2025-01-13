@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      div {
+        background-color: cadetblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <h1><center>ADMISSION FORM</center></h1>
+      </div>
+      <div style="background-color: rgb(211, 207, 203)">
+        <label for="fname">Student First name:</label>
+        <input
+          type="text"
+          name="Student Firstname"
+          id="fname"
+          placeholder="Enter your first name"
+          value=""
+        />
+        <label for="fname">Student Lastname:</label>
+        <input
+          type="text"
+          name="Student Lastname"
+          id="fname"
+          placeholder="Enter your last name"
+          required
+        />
+        <br />
+        <br />
+        <label>age:</label>
+        <input type="number" name="age" id="age" min="18" max="30" required />
+        <br />
+        <br />
+        <label>Gender</label>
+        <input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female
+        <br />
+        <br />
+        <label>Father's name:</label>
+        <input type="text" required />
+        <br />
+        <br />
+        <label>Mother's name:</label>
+        <input type="text" required />
+        <br />
+        <br />
+        <label> phone number: </label>
+        <input type="number" required />
+        <br />
+        <br />
+        <label>email:</label>
+        <input type="email" autocomplete />
+        <br />
+        <br />
+        <label>Date of birth</label>
+        <input type="date" />
+        <label>Time</label>
+        <input type="time" />
+        <br />
+        <br />
+        <label>Religion:</label>
+        <select>
+          <option></option>
+          <option>Hindhu</option>
+          <option>christian</option>
+          <option>muslim</option>
+        </select>
+        <br />
+        <br />
+        <label> Current Address: </label>
+        <textarea></textarea>
+        <label>Permanent Address:</label>
+        <textarea></textarea>
+        <br />
+        <br />
+        <label>state</label>
+        <select name="state" id="state">
+          <option value="Tamil nadu" >Tamil nadu</option>
+          <option value="karnataka" >karnataka</option>
+          <option value="rajasthan" >rajathan</option>
+        </select>
+        <br />
+        <br />
+        <label>Nationality</label>
+        <select>
+          <option></option>
+          <option>indian</option>
+          <option>others</option>
+        </select>
+        <br />
+        <br />
+        <label>schl marksheet:</label>
+        <input type="file" accept=".pdf" />
+        <label>clg marksheet:</label>
+        <input type="file" accept=".pdf" />
+        <br />
+        <br />
+        <lebel> Website </lebel>
+        <input type="url" />
+        <br />
+        <br />
+        <label>Agree for the terms and conditions</label>
+        <input type="checkbox" checked />
+        <br />
+        <br /><button type="submit">submit</button>
+        <button type="reset">reset</button>
+      </div>
+    </form>
+    </h2>
+  </body>
+</html>
